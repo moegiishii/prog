@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<script src="js/jquery-2.1.3.min.js"></script>
+<link rel="stylesheet" href="css/sample2.css">
+<title>じゃんけん</title>
+</head>
+<body>
+
+<header>
+  <h1>じゃんけん</h1>
+</header>
+
+<main>
+  <div>じゃんけん...<span id="janken"></span></div>
+  <div id="computer"></div>
+  <div><span id="pc_hands"></span></div>
+  <div id="judgment"></div>
+  <ul>
+    <li id="gu_btn"><img src="img2/gu.jpeg"></li>
+    <li id="cho_btn"><img src="img2/tyoki.jpeg"></li>
+    <li id="par_btn"><img src="img2/pa.jpeg"></li>
+  </ul>
+  <div>you ⬆︎</div>
+</main>
+
+<footer></footer>
+<script>
+
+
+//じゃんけん用のSCRIPTを書いてください
+
+$("#gu_btn").on("click",function(){
+    
+    const num = Math.ceil (Math.random() * 3);
+
+    if(num == 1){
+      $("#janken").html("ぽん!");
+      $("#computer").html("computer ⬇︎");
+      $("#pc_hands").html('<img src="img2/gu2.jpeg">');
+      $("#judgment").html("あいこ");
+    }
+    if(num == 2){
+      $("#janken").html("ぽん!");
+      $("#computer").html("computer ⬇︎");
+      $("#pc_hands").html('<img src="img2/tyoki2.jpeg">');
+      $("#judgment").html("あなたの勝ち");
+    }
+    if(num == 3){
+      $("#janken").html("ぽん!");
+      $("#computer").html("computer ⬇︎");
+      $("#pc_hands").html('<img src="img2/pa2.jpeg">');
+      $("#judgment").html("あなたの負け");
+    }
+    
+});
+
+$("#cho_btn").on("click",function(){
+    
+    const num = Math.ceil (Math.random() * 3);
+
+    if(num == 1){
+      $("#janken").html("ぽん!");
+      $("#computer").html("computer ⬇︎");
+      $("#pc_hands").html('<img src="img2/gu2.jpeg">');
+      $("#judgment").html("あなたの負け");
+    }
+    if(num == 2){
+      $("#janken").html("ぽん!");
+      $("#computer").html("computer ⬇︎");
+      $("#pc_hands").html('<img src="img2/tyoki2.jpeg">');
+      $("#judgment").html("あいこ");
+    }
+    if(num == 3){
+      $("#janken").html("ぽん!");
+      $("#computer").html("computer ⬇︎");
+      $("#pc_hands").html('<img src="img2/pa2.jpeg">');
+      $("#judgment").html("あなたの勝ち");
+    }
+    
+});
+
+$("#par_btn").on("click",function(){
+    
+    const num = Math.ceil (Math.random() * 3);
+
+    if(num == 1){
+      $("#janken").html("ぽん!");
+      $("#computer").html("computer ⬇︎");
+      $("#pc_hands").html('<img src="img2/gu2.jpeg">');
+      $("#judgment").html("あなたの勝ち");
+    }
+    if(num == 2){
+      $("#janken").html("ぽん!");
+      $("#computer").html("computer ⬇︎");
+      $("#pc_hands").html('<img src="img2/tyoki2.jpeg">');
+      $("#judgment").html("あなたの負け");
+    }
+    if(num == 3){
+      $("#janken").html("ぽん!");
+      $("#computer").html("computer ⬇︎");
+      $("#pc_hands").html('<img src="img2/pa2.jpeg">');
+      $("#judgment").html("あいこ");
+    }
+    
+});
+    
+    
+    
+
+</script>
+</body>
+</html>
