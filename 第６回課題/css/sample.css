@@ -1,0 +1,95 @@
+body{
+    margin:0;
+    padding:0;
+    text-align:left;
+    font-size: 32px;
+    width:100%;
+}
+header{
+    background-color: rgb(48, 86, 136);
+    border: 10px solid rgb(214, 219, 233);
+    text-align: center;
+    color:#ffffff;
+}
+h1{
+    font-size: 100%;
+}
+h2{
+    color:#35466b;
+    padding:0px 20px;
+    font-size: 25px;
+    
+}
+main{
+    width:97%;
+    display: block;
+    /* border-bottom:1px solid #ccc; */
+    position: relative;
+}
+footer{
+    background-color: #fff;
+    border-bottom:1px solid #ccc;
+    text-align: center;
+}
+p{
+    font-size:200%;
+    text-align: center;
+    border-bottom:1px solid #fff;
+    height:200px;
+}
+ul{
+    padding: 0;
+    /* border-top: 1px solid #000000; */
+    display: table;  /* 定義 */
+    table-layout: fixed;
+    width:96%;
+    font-size: 80%;
+    margin: 0 3%;
+    text-align: center;
+}
+li{
+    list-style-type:none;
+    border: 10px solid rgb(255, 255, 255);
+    background-color: #fff;
+    display:table-cell;  /* 定義 */
+    cursor: pointer;
+    color:#1e2b66;
+}
+li:hover{
+    background: #96bcce;
+    color:#fff;
+}
+textarea{
+  margin: 0px 20px 3%;
+  width: 95%;
+  height: 100px;
+  font-size:80%;
+  /* box-shadow: 3px 3px 3px 3px rgb(127, 128, 131); */
+  /* background-color:rgb(197, 218, 226); */
+  background-color:rgb(255, 255, 255);
+}
+#key{
+    border:1px solid #1e2b66;
+    margin:0px 3%;
+    width: 95%;
+    font-size:80%;
+    background-color: #e1efff;
+    box-shadow: 3px 3px 3px 3px rgb(127, 128, 131);
+}
+table{
+    margin: 20px;
+    border:1px solid #1e2b66;
+    width:95%;
+    
+}
+th{
+    width:30%;
+    font-size:24px;
+    background-color:#a6bcd1;
+    
+}
+td{
+    font-size:16px;
+    background-color:rgb(232, 236, 241);
+    
+}
