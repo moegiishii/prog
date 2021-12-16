@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(73, 104, 78);
+    margin:10px;
+    padding:10px;
+    text-align: center;
+    color:#ffffff;
+    font-size: 32px;
+    width:95%;
+}
+
+h1{
+    padding:10px;
+    border:10px dotted rgb(177, 72, 65);
+    font-size: 100%;
+}
+h2{
+    padding:20px;
+    border:10px dotted rgb(199, 206, 104);
+    /* font-size: 100%; */
+}
+
+nav{
+    height:35px;
+    
+}
+
+main{
+    width:97%;
+    display: block;
+    position: relative;
+}
