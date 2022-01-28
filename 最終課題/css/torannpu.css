@@ -1,0 +1,129 @@
+/* =======================================================
+ *   ページ全体
+ * ======================================================= */
+ body{
+    margin: 0px;
+    color: #ffffff; 
+    background: rgb(243, 168, 155);
+  }
+  
+  /* =======================================================
+   *   ヘッダー
+   * ======================================================= */
+  
+  header{
+    font-size: 20px;
+    color: #ffffff; 
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background: #c46666;
+  }
+  
+  /* =======================================================
+   *   メインコンテンツ
+   * ======================================================= */
+  
+  main{
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 50px;
+  }
+
+  div {
+    text-align: center;
+  }
+  
+  article ul, li {
+    display: block;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  h2 {
+    margin-top: 0rem;
+    font-size: 1rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+    margin-bottom: 0rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+    margin-top: 0;
+    margin-bottom: 5rem;
+    padding-left: 80%;
+  }
+  
+  #pull{
+    border: 10px rgb(66, 59, 59);
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 30px;
+  }
+
+  #judgment{
+    margin-bottom: 4rem;
+  }
+
+  #red_btn{
+    font-size: 2rem;
+    color: rgb(167, 72, 72);
+  }
+
+  #black_btn{
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+  }
+
+ul{
+    padding: 0px;
+    display: table;  /* 定義 */
+    table-layout: fixed;
+    width: 100%;
+}
+
+li{
+    /* text-align: center; */
+    list-style-type: none;
+    /* border: 5px solid rgb(63, 57, 97); */
+    padding: 10px;
+    /* border: 10px rgb(66, 59, 59); */
+    /* background-color: #FFF; */
+    display: table-cell;  /* 定義 */
+    cursor: pointer;
+}
+
+li:hover{
+    background: #ffffff50;
+    /* color: #fff; */
+}
+  
+  
+  /* =======================================================
+   *   フッター
+   * ======================================================= */
+  
+  footer {
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
+    background: #f5e5c8;
+  }
+  
+  #footlinks a {
+    text-align: center;
+    text-decoration: none;
+  }
+
+  a:link, a:visited {
+    text-decoration: none;
+    color: #5f4f3e; 
+  }
+  
+  a:hover {
+    color: rgb(62, 79, 173);
+  }
